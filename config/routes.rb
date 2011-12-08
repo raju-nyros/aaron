@@ -14,7 +14,9 @@ Aaron::Application.routes.draw do
   #~ resources :users do
       #~ post 'index', :on => :collection
   #~ end
-get '/home'           => 'users#index',       :as => :home
+   resources :users
+
+  root :to => 'users#index'
 
  #map.resources :maps, :only => [:index] 
  #root :to => "users#index"
