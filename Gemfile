@@ -7,7 +7,7 @@ gem 'rails', '3.1.0'
 
 #gem 'mysql'
 gem "pg", :group => :production
-gem 'therubyracer' 
+
 
 # Gems used only for assets and not required
 # in production environments by default.
