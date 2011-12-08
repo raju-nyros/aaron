@@ -33,7 +33,5 @@ group :test do
   gem 'turn', :require => false
 end
 
-group :production do
-  gem 'execjs'
-  gem 'therubyracer'
-end
+gem 'execjs'
+gem 'therubyracer'
